@@ -1,0 +1,17 @@
+body {
+	background-color: lightgrey;
+}
+
+.boardgame table {
+	border-collapse: collapse;
+}
+
+.boardgame td {
+	width: 20px;
+	height: 20px;
+	border: 0;
+}
+
+.boardgame .col {
+	background-color: yellow;
+}
