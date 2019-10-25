@@ -1,4 +1,5 @@
 /* CREATE THE BOARD */
+
 function Board(containerId, rowsCount, colsCount) {
     this.containerId = containerId;
     this.rowsCount = rowsCount;
@@ -19,4 +20,18 @@ function Board(containerId, rowsCount, colsCount) {
     }
 }
 
+
 /* ADD SNAKE AND FRUIT */
+
+function Snake (board, speed, head) {
+    this.head = head;
+    this.tail = head;
+    this.cells = [head];
+    this.board = board;
+
+    var $snake = this;
+    this.start = function () {
+        addClass(document.getElementById(cellId(head.row, head.col)), "snake");
+        addFruitToBoard(board, this);p
+    }
+}
