@@ -2,14 +2,38 @@
 <html>
 	<head>
 		<title>Snake JS</title>
-		<meta charset="utf-8">	
-		<style>
-			body {text-align: center;}
-		</style>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<script type="text/javascript" src="js/snake.js"></script>
 	</head>
 
 	<body>
-		<canvas id="gc" width="400" height="400"></canvas>
+		<div id="game">
+			<h1>Snake 8 Bits</h1>
+			<canvas id="gc" width="400" height="400"></canvas>
+		</div>
+
+		<div id="instructions">
+
+			<div class="instructions-buttons">
+				<img src="media/arrow_up.png" alt="arrow up">
+				<h3>Move up</h3>
+			</div>
+
+			<div class="instructions-buttons">
+				<img src="media/arrow_right.png" alt="arrow right">
+				<h3>Move right</h3>
+			</div>
+	
+			<div class="instructions-buttons">
+				<img src="media/arrow_down.png" alt="arrow down">
+				<h3>Move down</h3>
+			</div>
+		
+			<div class="instructions-buttons">
+				<img src="media/arrow_left.png" alt="arrow left">
+				<h3>Move left</h3>
+			</div>
+		</div>
 	</body>
 </html>

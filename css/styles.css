@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "8bits";
+	src: url("../fonts/8-bitwonder.TTF");
+}
+
+body {
+	text-align: center;
+	font-family: "8bits";
+}
+
+#instructions {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin: 0 auto;
+}
+
+#instructions img {
+	width: 50px;
+}
+
+.instructions-buttons {
+	display: flex;
+}
