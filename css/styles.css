@@ -8,10 +8,14 @@ body {
 	font-family: "8bits";
 }
 
+#game {
+	margin-bottom: 10px;
+}
+
 #instructions {
 	display: flex;
 	flex-direction: column;
-	width: 400px;
+	width: 250px;
 	margin: 0 auto;
 }
 
