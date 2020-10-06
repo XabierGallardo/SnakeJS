@@ -8,6 +8,8 @@ body {
 	font-family: "8bits";
 }
 
+a {text-decoration: none; color: black;}
+
 #game {
 	margin-bottom: 10px;
 }
@@ -26,3 +28,5 @@ body {
 .instructions-buttons {
 	display: flex;
 }
+
+.instructions-buttons h3 {margin-left: 10px;}
